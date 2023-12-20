@@ -186,7 +186,7 @@ class MemberController extends Controller
             }
 
             $member = Member::create([
-                'id_photo' => $request->input('id_photo'),
+                'img' => $request->input('id_photo'),
                 'lname' => $request->input('lname'),
                 'mname' => $request->input('mname'),
                 'fname' => $request->input('fname'),

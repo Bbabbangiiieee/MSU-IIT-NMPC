@@ -58,8 +58,8 @@
                                         <tr>
                                             <td>{{ $member->id }}</td>
                                             <td>
-                                                @if ($member->id_photo)
-                                                    <img src="{{ asset('images/id_photos/' . $member->id_photo) }}" alt="ID Photo" class="img-thumbnail" width="50" height="50">
+                                                @if ($member->img)
+                                                    <img src="{{ asset('images/id_photos/' . $member->img) }}" alt="ID Photo" class="img-thumbnail" width="50" height="50">
                                                 @else
                                                     No photo
                                                 @endif
